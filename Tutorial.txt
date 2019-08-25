@@ -1,4 +1,5 @@
----Git init
+---Git init --- reference video https://www.youtube.com/watch?v=wK1A2mNrZ9c---
+
 $ git remote add origin https://github.com/battu102/GitTutorial.git
 $ git push -u origin master
 $ git add -A   / git add . [staging area]
