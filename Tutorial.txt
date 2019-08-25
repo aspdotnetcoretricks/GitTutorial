@@ -16,8 +16,13 @@ hint: to the same ref. You may want to first integrate the remote changes
 hint: (e.g., 'git pull ...') before pushing again.
 hint: See the 'Note about fast-forwards' in 'git push --help' for details.
 }
+ 
 
-$ git remote set-url origin https://github.com/battu102/GitTutorial.git
+$ git pull origin master  [or]
+$ git merge origin/master --allow-unrelated-histories
 
+
+-------------Some important Commands------------------
+[
 $ git config --global user.email "battu102@gmail.com"
-$ git config --global user.user "battu102"
+$ git config --global user.user "battu102"]
