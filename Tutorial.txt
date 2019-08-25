@@ -1,7 +1,7 @@
 Git init
 $ git remote add origin https://github.com/battu102/GitTutorial.git
 $ git push -u origin master
-$ git add -A
+$ git add -A   / git add .
 $ git commit -m "first commit"
 $ git log
 $ git push -u origin master
